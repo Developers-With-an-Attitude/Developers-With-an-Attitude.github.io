@@ -1,0 +1,37 @@
+---
+const developers = [
+	{ name: 'Elian', tag: '@eliancodes', taglink: 'https://twitter.com/eliancodes', website: { url:'https://www.elian.codes/', title: 'www.elian.codes'}},
+	{ name: 'Dries', tag: '@dries.bruggeman', website: { url: 'https://www.dries.codes/', title: 'www.dries.codes'}},
+	{ name: 'Aaron', tag: '@aaon.lison', website: { url: 'https://www.stackoverflow.com/', title: 'www.stackoverflow.com'}}
+]
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Developers With An Attitude</title>
+		<link rel="stylesheet" href={Astro.resolve('../styles/global.scss')}>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1 class="title">Developers With an Attitude</h1>
+		<ul class="developers">
+			{ developers.map(developer => {
+				return (
+					<li>
+						<figure>
+							<img src={`/img/${developer.name.trim()}.png`}>
+							<figcaption class="sr-only">profile picture of {developer.name}</figcaption>
+						</figure>
+						<h2>{developer.name}</h2>
+						<p class="taglink">{developer.taglink ? (<a href={developer.taglink}>{developer.tag}</a>) : <span>{developer.tag}</span>}</p>
+						<p class="website"><a target="_blank" href={developer.website.url}>{developer.website.title}</a></p>
+					</li>
+				)
+			})}
+		</ul>
+	</body>
+</html>
