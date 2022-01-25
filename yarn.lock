@@ -713,10 +713,10 @@ astring@^1.7.5:
   resolved "https://registry.yarnpkg.com/astring/-/astring-1.8.1.tgz#a91c4afd4af3523e11f31242a3d5d9af62bb6cc6"
   integrity sha512-Aj3mbwVzj7Vve4I/v2JYOPFkCGM2YS7OqQTNSxmUR+LECRpokuPgAYghePgr6SALDo5bD5DlfbSaYjOzGJZOLQ==
 
-astro@^0.22.17:
-  version "0.22.17"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-0.22.17.tgz#0d9034860c845d61d7127b8921c724bb265bab3e"
-  integrity sha512-AT71foGfVHu38v43JCke/oX16gr2NcqhIDqEbfrxcnMVfHbKeSGIGk4QlvK0WlV13yo4RJtXG2pjf5j5oLEdGA==
+astro@^0.22.18:
+  version "0.22.18"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-0.22.18.tgz#0d15c1979ea49a4a1bee4bbf300bb9050522a477"
+  integrity sha512-7ncpkBHBARi68ZyhcP6AMlf6HeNMHGFbuxIIbiRWQt0BAt960kw6YFGSBqIKlf8CYogF4r9YN/PSVgkj0wtFTQ==
   dependencies:
     "@astrojs/compiler" "^0.9.2"
     "@astrojs/language-server" "^0.8.6"
