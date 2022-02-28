@@ -722,10 +722,10 @@ assert@^2.0.0:
     object-is "^1.0.1"
     util "^0.12.0"
 
-astro@^0.23.1:
-  version "0.23.1"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-0.23.1.tgz#d7a8e5e4a239471bbd2934cc799738ed487aa79d"
-  integrity sha512-iieMjkqTVA9zAG7VvI3ckDHlQVHym79WCkxxhICoNKrPt2cq6PMZK/lqVIJZzTtIudMdnaHnH1KHsxHTN4AI/A==
+astro@^0.23.2:
+  version "0.23.2"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-0.23.2.tgz#243db07ed192e0f294d020044f084dd68674bc3f"
+  integrity sha512-NoVZxRXDW/PLSsEQLdsiBub+AeVq8EAzc2Lg+XdHegvoeQnGsYrvrzLIxbztRHZIeOuY+lbgf8MlwgVnOrQY4g==
   dependencies:
     "@astrojs/compiler" "^0.11.4"
     "@astrojs/language-server" "^0.8.6"
