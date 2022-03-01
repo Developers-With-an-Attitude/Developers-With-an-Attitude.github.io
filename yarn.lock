@@ -722,10 +722,10 @@ assert@^2.0.0:
     object-is "^1.0.1"
     util "^0.12.0"
 
-astro@^0.23.2:
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-0.23.2.tgz#243db07ed192e0f294d020044f084dd68674bc3f"
-  integrity sha512-NoVZxRXDW/PLSsEQLdsiBub+AeVq8EAzc2Lg+XdHegvoeQnGsYrvrzLIxbztRHZIeOuY+lbgf8MlwgVnOrQY4g==
+astro@^0.23.3:
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-0.23.3.tgz#58a633f46aa17cad121a9a41e221d6ffa76ebfb8"
+  integrity sha512-IoeP2jsp/Z52UsgyMh/l/EZD8n1HYA6ZUD+rVnbRnWZfWdrGSU5C4TMhuVwXdEIE7KVysRJSvBcIBrMlU5qbGQ==
   dependencies:
     "@astrojs/compiler" "^0.11.4"
     "@astrojs/language-server" "^0.8.6"
@@ -756,7 +756,7 @@ astro@^0.23.2:
     htmlparser2 "^7.1.2"
     kleur "^4.1.4"
     magic-string "^0.25.7"
-    micromorph "^0.0.2"
+    micromorph "^0.1.1"
     mime "^3.0.0"
     parse5 "^6.0.1"
     path-to-regexp "^6.2.0"
@@ -2632,10 +2632,10 @@ micromatch@^4.0.4:
     braces "^3.0.1"
     picomatch "^2.2.3"
 
-micromorph@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/micromorph/-/micromorph-0.0.2.tgz#5cfbaea66ae5fb8629c8041897e88d9e827afc2f"
-  integrity sha512-hfy/OA8rtwI/vPRm4L6a3/u6uDvqsPmTok7pPmtfv2a7YfaTVfxd9HX2Kdn/SZ8rGMKkKVJ9A0WcBnzs0bjLXw==
+micromorph@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/micromorph/-/micromorph-0.1.1.tgz#1772b07f1be6cae10b3210a0f84fe5364987f029"
+  integrity sha512-VIAYxW6D9yOkcMJK/G6xS1fh8r1gD+mmD4VLPKki7Xqzfrq1qlCfQAA6ITIbUnLDAHv8UpPPhCWzFJ29fiUjZQ==
 
 mime@1.6.0:
   version "1.6.0"
