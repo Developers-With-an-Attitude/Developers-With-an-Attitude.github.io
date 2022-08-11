@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "astro": "^0.23.7",
-    "sass": "^1.50.1",
+    "sass": "^1.54.4",
     "tailwindcss": "^3.0.24"
   }
 }
